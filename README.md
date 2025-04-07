@@ -10,7 +10,7 @@ Let me start with a quick disclaimer! I'm currently preparing for the PJPT exam 
 
 That said, it’s worth noting that a challenge like this is quite different from what you’d encounter on the PJPT exam. I didn’t dig into every single possible vulnerability — after all, this is a CTF. My approach was to find the most efficient path to capture the required flags.
 
-But enough talking — let’s get to it!
+But enough talking — *let’s get to it!*
 
 ---
 
@@ -70,6 +70,12 @@ sudo nano /etc/hosts
 Let's add:
 ```bash
 10.10.11.174  support.htb
+```
+
+Usually, to ensure everything works without errors, in case we have to deal with attacks like Kerberoasting, I prefer to set the time with
+
+```bash
+sudo ntpdate <domain>
 ```
 ---
 
