@@ -553,7 +553,7 @@ Mode                 LastWriteTime         Length Name
 -ar---          4/5/2025   5:58 PM             34 user.txt
 
 *Evil-WinRM* PS C:\Users\support\Desktop> type user.txt
-**655f85da92a219613052d7ac047cb9f0**
+655f85da92a219613052d7ac047cb9f0
 ```
 
 Boom — just as expected, the **first flag is ours**.  
